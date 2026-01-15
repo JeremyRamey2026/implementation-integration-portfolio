@@ -28,16 +28,41 @@ All examples are **sanitized, anonymized, and non-confidential**.
 
 ## Featured Case Studies
 
-### Enterprise Implementation — Uber for Business
-**Problem:**  
-Enterprise rollout required structured onboarding across multiple stakeholder groups, with adoption risk if sequencing and ownership were unclear.
+## Hero Case Study — Global, Decentralized Travel + Meals Rollout (Enterprise)
 
-**What I Did:**  
-Led kickoff and discovery, defined rollout milestones, coordinated configuration and enablement, and maintained a weekly execution cadence to unblock risks early.
+### Problem
+A global organization needed a decentralized rollout for **business travel and meals**. Key pain points included high-cost airport transportation patterns (e.g., black car usage) and the need to drive adoption across multiple business units without a single centralized owner.
 
-**Outcome:**  
-Successful launch with clearer ownership, smoother rollout, and stronger early adoption.
+### Environment
+- **Program type:** Global, decentralized travel + meals
+- **Existing ecosystem:** TripActions for self-booking, corporate cards, and expense workflows
+- **Integration complexity:** First-time **SCIM provisioning** using **OneLogin**
+- **Rollout strategy:** Phased launch with end-user activation focus
 
+### What I Did (Actions)
+- **Built the business case with spend insights:** surfaced cost-saving opportunity by comparing higher-cost ground transportation patterns against a lower-cost alternative.
+- **Aligned stakeholders on rollout approach:** clarified decentralized ownership and established a weekly operating cadence (status updates, risks, decisions).
+- **Led SCIM provisioning readiness:** partnered with IT to validate user lifecycle requirements (create/update/deactivate), required attributes, and ownership expectations.
+- **Managed launch-day execution:** coordinated go-live steps, monitored provisioning and user access in real time, and worked cross-functionally to troubleshoot issues quickly.
+- **Drove activation strategy:** launched a **$20 linking incentive** and prepared post-launch office hours to accelerate adoption and reduce confusion.
+
+### Technical Components (High-Level)
+- **SCIM provisioning via OneLogin**
+  - User lifecycle events: create / update / deactivate
+  - Attribute mapping and ownership alignment
+  - Go-live validation and issue triage
+- **Workflow coordination with existing travel/expense tools**
+  - Ensured program fit alongside established self-booking and expense processes
+
+### Outcomes (Sanitized)
+- **Linkage:** ~22% early linkage following launch + incentive
+- **Commercial impact:** ~$202K gross bookings within ~90 days (trend increasing)
+- **Operational readiness:** Successful first-time SCIM provisioning go-live with launch-day risk managed through rapid cross-functional troubleshooting
+
+### Learnings
+- Adoption improves when the value story is tied to **real spend patterns**, not generic benefits.
+- First-time SCIM go-lives succeed when ownership is explicit: **who owns data quality, lifecycle events, and exception handling**.
+- “Office hours” post-launch reduces friction and keeps decentralized programs moving.
 ---
 
 ### Concur Integration Rollout
