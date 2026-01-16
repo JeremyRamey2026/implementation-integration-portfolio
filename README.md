@@ -13,8 +13,18 @@ I’m an Implementation, Integration, and Customer Success professional with exp
 This is **not a software engineering portfolio**.  
 This portfolio is designed to help **recruiters and hiring managers** understand how I run implementations, partner cross-functionally, and deliver outcomes after launch.
 
-All examples are **sanitized, anonymized, and non-confidential**.
+## How I Run Implementations
 
+I approach implementations as both an operational and adoption problem, not just a configuration exercise. My focus is on sequencing work in a way that reduces risk early, enables access quickly, and creates momentum after launch.
+
+- Start with access, ownership, and expectations before configuration  
+- Align integrations to adoption and business outcomes, not just technical completion  
+- Sequence rollout to minimize launch-day risk and downstream rework  
+- Partner cross-functionally early to surface constraints before they become blockers  
+- Use early metrics and feedback to course-correct rather than react post-launch  
+- Treat post-launch adoption as part of implementation, not a handoff
+
+All content included here is sanitized, anonymized, and non-confidential.
 ---
 
 ## What I Do
