@@ -156,8 +156,9 @@ body{
 .card img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
-  object-position: center top; /* <-- KEY FIX */
+  object-fit: contain;
+  background-color: #f7f9fb;
+  padding: 12px;
 }
 
 .card-body{ padding: 14px; }
