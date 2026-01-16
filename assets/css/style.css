@@ -153,11 +153,11 @@ body{
   overflow:hidden;
 }
 
-.card img{
+.card img {
   width: 100%;
-  height: 160px;
+  height: 220px;
   object-fit: cover;
-  display:block;
+  object-position: center top; /* <-- KEY FIX */
 }
 
 .card-body{ padding: 14px; }
