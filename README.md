@@ -109,9 +109,11 @@ Renewed adoption momentum and improved program confidence.
 
 ---
 
-## Example Pseudo-Flows
+## Implementation & Integration Flows
 
-### Implementation Lifecycle
+These flows illustrate the implementation and integration approach applied during the enterprise rollout above, highlighting how technical readiness and adoption were aligned to drive outcomes.
+
+### End-to-End Implementation Lifecycle
 Sales Close  
 ↓  
 Kickoff & Discovery  
@@ -126,7 +128,7 @@ Adoption Monitoring
 
 ---
 
-### SCIM Provisioning (Conceptual)
+### SCIM Provisioning Flow
 Identity Provider (Okta / Azure AD)  
 ↓  
 SCIM Trigger (Create / Update / Deactivate)  
@@ -137,9 +139,11 @@ Reduced Manual Admin Work
 
 ---
 
-## Tools & Systems (High-Level)
-- Uber for Business  
-- Concur  
+## Platforms, Tools & Systems
+- Uber for Business
+- Ramp
+- Concur
+- Workday
 - SCIM / SFTP roster automation  
 - Enterprise onboarding workflows  
 - Adoption and KPI tracking frameworks
