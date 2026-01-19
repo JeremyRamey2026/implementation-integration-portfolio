@@ -16,15 +16,15 @@
 
         <div class="header-meta">
           <h1>Jeremy Ramey</h1>
-          <div class="subtitle">Customer Onboarding & Implementation Specialist</div>
 
-          <div class="meta-list">
-            <div class="meta-item">📍 <span>New York, NY</span></div>
-            <div class="meta-item meta-dot">•</div>
-            <div class="meta-item">🧳 <span>Formerly Uber for Business</span></div>
-            <div class="meta-item meta-dot">•</div>
-            <div class="meta-item">✉️ <span>jsr110187@gmail.com</span></div>
+          <!-- Updated subtitle + non-engineering label (keeps your existing styling) -->
+          <div class="subtitle">
+            Customer Onboarding, Integrations &amp; Implementations
+            <span class="subtitle-muted">(Non-Engineering Portfolio)</span>
           </div>
+
+          <!-- Removed location / formerly / visible email line -->
+          <!-- (Meta-list block intentionally deleted) -->
 
           <div class="links">
             <a href="https://www.linkedin.com/in/jeremy-r-a57b98ab/" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -56,7 +56,7 @@
         <div class="panel-card">
           <div class="section-title">
             <h2>Overview</h2>
-            <p>Driving Success Through Client Onboarding & Implementation</p>
+            <p>Driving Success Through Client Onboarding &amp; Implementation</p>
           </div>
 
           <p style="max-width:860px;margin:0 auto;color:#374151;line-height:1.6;">
@@ -71,7 +71,7 @@
       <section class="panel" id="projects">
         <div class="section-title">
           <h2>Uber for Business Projects</h2>
-          <p>Driving Success Through Client Onboarding & Implementation</p>
+          <p>Driving Success Through Client Onboarding &amp; Implementation</p>
         </div>
 
         <div class="cards">
@@ -188,6 +188,10 @@
     <div class="footer">© <span id="year"></span> Jeremy Ramey</div>
   </div>
 
-  <script src="assets/js/main.js"></script>
+  <!-- Keeps the year current (safe even if you already have it elsewhere) -->
+  <script>
+    var y = document.getElementById("year");
+    if (y) y.textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
