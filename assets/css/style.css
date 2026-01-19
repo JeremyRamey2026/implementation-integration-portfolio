@@ -36,6 +36,13 @@ body{
   padding:22px;
 }
 
+.subtitle-muted{
+  color: var(--muted);
+  font-weight: 400;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
 .avatar{
   width:92px;height:92px;border-radius:999px;
   object-fit:cover;
