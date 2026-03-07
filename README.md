@@ -2,7 +2,7 @@
 **Implementation | Integrations | Customer Success (Non-Engineering Portfolio)**
 
 [LinkedIn](https://www.linkedin.com/in/jeremy-r-a57b98ab/) •  
-[Email](mailto:jsr110187@gmail.com) •  
+[Email](mailto:JRamey.Tech@outlook.com) •  
 [Resume](assets/resume.pdf)
 
 ---
